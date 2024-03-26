@@ -1,13 +1,15 @@
 #include "binary_trees.h"
-/**
- * binary_tree_nodes - function that returns # of nodes in a tree with children
- * @tree: tree to check
- * Return: number of nodes with children
- */
-size_t binary_tree_nodes(const binary_tree_t *tree)
-{
 
-	size_t  node = 0;
+/**
+ * binary_tree_height_b - Measures height of a binary tree for a bal tree
+ * @tree: tree to go through
+ * Return: the height
+ */
+
+size_t binary_tree_height_b(const binary_tree_t *tree)
+{
+	size_t l = 0;
+	size_t r = 0;
 
 	if (tree == NULL)
 	{
@@ -15,9 +17,30 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 	}
 	else
 	{
-		node += ((tree->left || tree->right) ? 1 : 0);
-		node += binary_tree_nodes(tree->left);
-		node += binary_tree_nodes(tree->right);
-		return (node);
+		if (tree)
+		{
+			l = tree->left ? 1 + binary_tree_height_b(tree->left) : 1;
+			r = tree->right ? 1 + binary_tree_height_b(tree->right) : 1;
+		}
+		return ((l > r) ? l : r);
 	}
+}
+
+/**
+ * binary_tree_balance - Measures balance factor of a binary tree
+ * @tree: tree to go through
+ * Return: balanced factor
+ */
+
+int binary_tree_balance(const binary_tree_t *tree)
+{
+	int right = 0, left = 0, total = 0;
+
+	if (tree)
+	{
+		left = ((int)binary_tree_height_b(tree->left));
+		right = ((int)binary_tree_height_b(tree->right));
+		total = left - right;
+	}
+	return (total);
 }
