@@ -57,8 +57,8 @@ void recurse_extract(heap_t *tree)
 
 /**
  * heap_extract - Extracts the root from a Binary Heap.
- * @root: pointer to the root of trree.
- * Return: The value of extracted node.
+ * @root: The pointer to the root of the tree.
+ * Return: The value of the extracted node.
  */
 int heap_extract(heap_t **root)
 {
