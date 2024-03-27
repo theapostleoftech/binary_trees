@@ -6,7 +6,7 @@
 3. [Delete](./3-binary_tree_delete.c)
 4. [Is leaf](./4-binary_tree_is_leaf.c)
 5. [Is root](./5-binary_tree_is_root.c)
-
+6. [Pre-order traversal](./6-binary_tree_preorder.c)
 
 
 
