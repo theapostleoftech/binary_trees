@@ -17,6 +17,7 @@
 14. [Balance factor](./14-binary_tree_balance.c)
 15. [Is full](./15-binary_tree_is_full.c)
 16. [Is perfect](./16-binary_tree_is_perfect.c)
+17. [Sibling](./17-binary_tree_sibling.c)
 
 
 
