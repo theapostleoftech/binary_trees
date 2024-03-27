@@ -24,6 +24,7 @@
 21. [Is complete](./102-binary_tree_is_complete.c)
 22. [Rotate left](./103-binary_tree_rotate_left.c)
 23. [Rotate right](./104-binary_tree_rotate_right.c)
+24. [Is BST](./110-binary_tree_is_bst.c)
 
 
 
