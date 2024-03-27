@@ -27,6 +27,7 @@
 24. [Is BST](./110-binary_tree_is_bst.c)
 25. [BST - Insert](./111-bst_insert.c)
 26. [BST - Array to BST](./112-array_to_bst.c)
+27. [BST - Search](./113-bst_search.c)
 
 
 
