@@ -30,6 +30,7 @@
 27. [BST - Search](./113-bst_search.c)
 28. [BST - Remove](./114-bst_remove.c)
 29. [Big O #BST](./115-O)
+30. [Is AVL](./120-binary_tree_is_avl.c)
 
 
 
