@@ -26,6 +26,7 @@
 23. [Rotate right](./104-binary_tree_rotate_right.c)
 24. [Is BST](./110-binary_tree_is_bst.c)
 25. [BST - Insert](./111-bst_insert.c)
+26. [BST - Array to BST](./112-array_to_bst.c)
 
 
 
