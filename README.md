@@ -22,6 +22,7 @@
 19. [Lowest Common ancestor](./100-binary_trees_ancestor.c)
 20. [Level order traversal](./101-binary_tree_levelorder.c)
 21. [Is complete](./102-binary_tree_is_complete.c)
+22. [Rotate left](./103-binary_tree_rotate_left.c)
 
 
 
