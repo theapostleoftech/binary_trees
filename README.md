@@ -10,7 +10,7 @@
 7. [In-order traversal](./7-binary_tree_inorder.c)
 8. [Post-order traversal](./8-binary_tree_postorder.c)
 9. [Height](./9-binary_tree_height.c)
-
+10. [Depth](./10-binary_tree_depth.c)
 
 
 
