@@ -13,7 +13,7 @@
 10. [Depth](./10-binary_tree_depth.c)
 11. [Size](./11-binary_tree_size.c)
 12. [Leaves](./12-binary_tree_leaves.c)
-
+13. [Nodes](./13-binary_tree_nodes.c)
 
 
 
